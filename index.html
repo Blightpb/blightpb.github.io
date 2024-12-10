@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+<title>Meu Portifólio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="w3-top">
+  <div class="inicio">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-grey w3-large w3-text-grey" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-grey">Início</a>
+    <a href="#sobre-mim" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-text-grey">Sobre mim</a>
+    <a href="#sobre-curso" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-text-grey">Sobre o curso</a>
+    <a href="#mais-projetos" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-text-grey">Mais Projetos</a>
+  </div>
+</div>
+
+<div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+  <a href="#sobre-mim" class="w3-bar-item w3-button">Sobre mim</a>
+  <a href="#sobre-curso" class="w3-bar-item w3-button">Sobre o curso</a>
+  <a href="#mais-projetos" class="w3-bar-item w3-button">Mais Projetos</a>
+</div>
+
+<header class="" style="padding:px 50px">
+  <div class="w3-row-padding w3-padding-64 w3-container">
+    <div class="w3-content">
+      <div class="w3-twothird">
+        <h2>Meu Portifólio</h2>
+        </div>
+      </div>
+    </div>
+</header>
+
+<div class="w3-row-padding w3-padding-64 w3-container" id="sobre-mim">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Sobre mim</h1>
+      <h5 class="w3-padding-32">Olá! Me chamo Rafaela atualmente tenho 16 anos e curso Desenvolvimento de Sistemas na escola SENAI onde eu desenvolvi vários trabalhos e nesse portifólio você vai conhecer um pouco sobre eles e sobre mim. </h5>
+
+      <p class="w3-text-white">Gosto de colecionar bonecas, tenho bonecas de diferentes linhas como Monster High, Bratz, Barbie e outros. Gosto de música e tudo que envolve cultura pop dos anos 2000.</p>
+    </div>
+
+    <div class="w3-third w3-center">
+        <i><img id="imagem2" src="img/imagem2.png"></i>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="sobre-curso" >
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <i><img id="imagem" src="img/imagem.png"></i>
+    </div>
+
+    <div class="w3-twothird" >
+      <h1>Sobre o curso</h1>
+      <h5 class="w3-padding-32">No começo não pensei que iria me interessar pelo curso de DEV, porém atualmente estou gostando bastante e estudando sobre além dos horários de aula e buscando aprimorar mais meus conhecimentos.</h5>
+
+      <p class="w3-text-grey">Minhas matérias favoritas são Linguagem de Marcação e Banco de Dados. Estou ansiosa para o segundo ano do curso e aprender sobre JavaScript para tornar meus Sites mais bonitos e interativos.</p>
+    </div>
+  </div>
+</div>
+
+<div id="mais-projetos" >
+<form>
+  <h2> Mais projetos:</h2>
+        <h4>Novembro Preto: <a href="https://blightpb.github.io/novembro-preto/NovembroPreto/" target="_blank">novembro-preto</a></h4>
+        <h4>Meu Primeiro Site: <a href="https://blightpb.github.io/LIMA/top10/" target="_blank">top-10</a></h4>
+        <h4>Videos Incorporados: <a href="https://blightpb.github.io/videos-incorporados/videos-incorporados/" target="_blank">videos-incorporados</a></h4>
+
+</form>
+</div>
+
+<footer class="w3-container w3-padding-64 w3-center w3-opacity"> 
+  <div class="w3-xlarge w3-padding-32">
+    <h5> De: Rafaela Silva da Paz</h5>
+    <h6>Me siga nas minhas rede sociais:</h6>
+    <a href="https://www.instagram.com/pzs.rafa/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+
+    <a href="https://br.pinterest.com/blightpb/" target="_blank" rel="noopener noreferrer"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+
+    <a href="http://x.com/blightpb" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+
+    <a href="https://br.linkedin.com/in/rafaela-silva-da-paz-7492a4324?trk=people-guest_people_search-card" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+
+    <a href="https://github.com/Blightpb" target="_blank" rel="noopener noreferrer"><i class="fa fa-github w3-hover-opacity"></i></a>
+ </div>
+</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
