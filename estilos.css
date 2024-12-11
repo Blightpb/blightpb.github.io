@@ -3,11 +3,11 @@ body{
    background-attachment: fixed;
 }
 header{
-    background-color: rgb(22, 22, 22);
+    background-color: #161616;
     height: 20%;
-    color: rgb(139, 139, 139);
+    color: #8B8B8B;
     h2{
-        color: rgb(255, 69, 156);
+        color: #ff459c;
         text-shadow: 2px 2px 0 #eeeeee;
         font-size: 50px;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -20,13 +20,13 @@ header{
     width: 70%;
 }
 .inicio {
-    background-color: rgb(35, 35, 35); 
-    color: white;
+    background-color: #232323; 
+    color: #eeeeee;
 }
 div{
     h1{
         font-family:Verdana, Geneva, Tahoma, sans-serif;
-        color: rgb(255, 188, 219);
+        color: #ffbcdb;
         text-shadow: 2px 2px 0  #5f5f5f;;  
     }
     h3{
@@ -39,16 +39,16 @@ i {
 form{
     margin: auto;
     padding: 80px;
-    background: rgb(22, 22, 22);
+    background:#161616;
     text-align: center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     h4{
-        color: rgb(255, 152, 210);
+        color: #ff98d2;
         text-align: center;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
     a{
-        color: rgb(174, 174, 174) ;
+        color: #aeaeae;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
     }
     a:hover{
@@ -57,13 +57,13 @@ form{
         transition:all linear 0.3;
     }
     h2{
-        color: rgb(255, 69, 156);
+        color: #c3487b;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         text-shadow: 2px 2px 0 #eeeeee;
     }
 }
 #navDemo{
-    background-color: rgb(35, 35, 35);  
+    background-color: #232323;  
     color: #737373;
     margin-top: 45px;
 }
