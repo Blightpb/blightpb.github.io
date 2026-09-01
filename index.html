@@ -6,668 +6,687 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Portfólio | Rafaela Silva da Paz</title>
 
-    <title>Portfólio | Rafaela Silva da Paz</title>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img/7.png" type="image/x-icon">
+<link rel="icon" href="img/icon.png" sizes="16x16">
 
-    <link rel="stylesheet" href="style.css">
+<!-- Font Awesome -->
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
-    <!-- Ícones -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
 
 </head>
 
 <body>
 
-    <div class="page-loader" id="pageLoader">
-        <div class="loader-spinner"></div>
-    </div>
+<!-- Carregamento da página -->
+<div class="page-loader" id="pageLoader">
+    <div class="loader-spinner"></div>
+</div>
 
-    <div class="portfolio">
+<div class="portfolio">
 
-        <header class="header">
+    <!-- CABEÇALHO -->
+    <header class="header">
 
-            <div class="header-top">
+        <div class="header-top">
 
-                <button class="menu-btn" id="menuBtn" type="button">
-                    <i class="fa-solid fa-bars"></i>
-                </button>
+            <!-- Botão do menu mobile -->
+            <button class="menu-btn" id="menuBtn" type="button" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
 
-                <div class="welcome">
+            <!-- Apresentação -->
+            <div class="welcome">
 
-                    <h1>
-                        Olá, sou
-                        <strong>Rafaela Silva da Paz</strong>
-                    </h1>
+                <h1>
+                    Olá, sou
+                    <strong>Rafaela Silva da Paz</strong>
+                </h1>
 
-                    <p>
-                        Seja bem-vindo(a) ao meu portfólio!
-                    </p>
-
-                </div>
-
-                <div class="profile">
-                    <img src="img/profile.png" alt="">
-                </div>
-
-                <!-- Botão modo escuro -->
-                <button class="theme-toggle" id="themeToggle" type="button" aria-label="Ativar modo escuro"
-                    title="Modo escuro">
-
-                    <i class="fa-solid fa-moon"></i>
-
-                </button>
+                <p>
+                    Seja bem-vindo(a) ao meu portfólio!
+                </p>
 
             </div>
 
-            <!-- Navegação -->
+            <!-- Foto -->
+            <div class="profile">
+                <img src="img/profile.png" alt="Foto de Rafaela Silva da Paz">
+            </div>
 
-            <nav class="navigation" id="navigation">
+            <!-- Botão modo escuro -->
+            <button
+                class="theme-toggle"
+                id="themeToggle"
+                type="button"
+                aria-label="Ativar modo escuro"
+                title="Modo escuro">
 
-                <button class="nav-item active" data-section="introducao">
+                <i class="fa-solid fa-moon"></i>
 
-                    <div class="circulo active"></div>
+            </button>
 
-                    Introdução
+        </div>
 
-                </button>
+        <!-- NAVEGAÇÃO -->
+        <nav class="navigation" id="navigation">
 
+            <button
+                class="nav-item active"
+                data-section="introducao"
+                type="button">
 
-                <button class="nav-item" data-section="habilidades">
+                <span class="nav-icon">
+                    <i class="fa-solid fa-house"></i>
+                </span>
 
-                    <div class="circulo"></div>
+                <span>Introdução</span>
 
-                    Habilidades
+            </button>
 
-                </button>
+            <button
+                class="nav-item"
+                data-section="habilidades"
+                type="button">
 
+                <span class="nav-icon">
+                    <i class="fa-solid fa-code"></i>
+                </span>
 
-                <button class="nav-item" data-section="projetos">
+                <span>Habilidades</span>
 
-                    <div class="circulo"></div>
+            </button>
 
-                    Projetos
+            <button
+                class="nav-item"
+                data-section="projetos"
+                type="button">
 
-                </button>
+                <span class="nav-icon">
+                    <i class="fa-solid fa-folder-open"></i>
+                </span>
 
-            </nav>
+                <span>Projetos</span>
 
-        </header>
+            </button>
 
+        </nav>
 
-        <main>
+    </header>
 
-            <!-- 1. Página de introdução -->
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
 
-            <section class="section active" id="introducao">
+        <!-- INTRODUÇÃO -->
+        <section class="section active" id="introducao">
 
-                <div class="intro-grid">
+            <div class="intro-grid">
 
-                    <!-- Sobre mim -->
+                <!-- SOBRE MIM -->
+                <div>
 
-                    <div>
+                    <div class="about-card">
 
-                        <div class="about-card">
+                        <h2>Sobre mim</h2>
 
-                            <h2>Sobre mim</h2>
+                        <p>
+                            Sou estudante de Análise e Desenvolvimento
+                            de Sistemas no SENAI Sorocaba, atualmente
+                            no 2º semestre.
+                        </p>
 
-                            <p>
-                                Sou estudante de Análise e Desenvolvimento
-                                de Sistemas no SENAI Sorocaba, atualmente
-                                no 2º semestre.
-                            </p>
+                        <p>
+                            Tenho interesse em desenvolvimento web,
+                            banco de dados e análise de sistemas.
+                            Gosto de transformar problemas em soluções
+                            funcionais, unindo tecnologia,
+                            organização e criatividade.
+                        </p>
 
-                            <p>
-                                Tenho interesse em desenvolvimento web,
-                                banco de dados e análise de sistemas.
-                                Gosto de transformar problemas em soluções
-                                funcionais, unindo tecnologia,
-                                organização e criatividade.
-                            </p>
+                    </div>
+
+                    <!-- INFORMAÇÕES -->
+                    <div class="info-list">
+
+                        <div class="info-card">
+
+                            <div class="info-icon">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+
+                            <div>
+                                <strong>Estudante de ADS</strong>
+
+                                <small>
+                                    2º semestre – SENAI Sorocaba
+                                </small>
+                            </div>
 
                         </div>
 
-                        <div class="info-list">
+                        <div class="info-card">
 
-                            <div class="info-card">
-
-                                <div class="info-icon">
-                                    <i class="fa-solid fa-graduation-cap"></i>
-                                </div>
-
-                                <div>
-
-                                    <strong>Estudante de ADS</strong>
-
-                                    <small>
-                                        2º semestre – SENAI Sorocaba
-                                    </small>
-
-                                </div>
-
+                            <div class="info-icon">
+                                <i class="fa-solid fa-code"></i>
                             </div>
 
-                            <div class="info-card">
+                            <div>
+                                <strong>Foco de atuação</strong>
 
-                                <div class="info-icon">
-                                    <i class="fa-solid fa-code"></i>
-                                </div>
-
-                                <div>
-
-                                    <strong>Foco de atuação</strong>
-
-                                    <small>
-                                        Desenvolvimento web, Banco de
-                                        dados e Análise de sistemas
-                                    </small>
-
-                                </div>
-
+                                <small>
+                                    Desenvolvimento web, Banco de
+                                    dados e Análise de sistemas
+                                </small>
                             </div>
 
+                        </div>
 
-                            <div class="info-card">
+                        <div class="info-card">
 
-                                <div class="info-icon">
-                                    <i class="fa-solid fa-bullseye"></i>
-                                </div>
+                            <div class="info-icon">
+                                <i class="fa-solid fa-bullseye"></i>
+                            </div>
 
-                                <div>
+                            <div>
+                                <strong>Objetivo</strong>
 
-                                    <strong>Objetivo</strong>
-
-                                    <small>
-                                        Conquistar uma oportunidade de
-                                        estágio e continuar evoluindo
-                                        como desenvolvedora.
-                                    </small>
-
-                                </div>
-
+                                <small>
+                                    Conquistar uma oportunidade de
+                                    estágio e continuar evoluindo
+                                    como desenvolvedora.
+                                </small>
                             </div>
 
                         </div>
 
                     </div>
 
-                    <!-- Informações -->
+                </div>
 
-                    <div class="information">
+                <!-- INFORMAÇÕES DE CONTATO -->
+                <div class="information">
 
-                        <h2>Informações</h2>
+                    <h2>Informações</h2>
 
+                    <a
+                        class="contact-card"
+                        href="https://github.com/Blightpb"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
-                        <a class="contact-card" href="https://github.com/Blightpb" target="_blank">
+                        <i class="fa-brands fa-github"></i>
 
-                            <i class="fa-brands fa-github"></i>
+                        <div>
+                            <strong>GitHub</strong>
 
-                            <div>
+                            <small>
+                                github.com/Blightpb
+                            </small>
+                        </div>
 
-                                <strong>GitHub</strong>
+                    </a>
 
-                                <small>
-                                    https://github.com/Blightpb
-                                </small>
+                    <a
+                        class="contact-card"
+                        href="mailto:rafaelapazs666@gmail.com">
 
-                            </div>
+                        <i class="fa-regular fa-envelope"></i>
 
-                        </a>
+                        <div>
+                            <strong>E-mail</strong>
 
+                            <small>
+                                rafaelapazs666@gmail.com
+                            </small>
+                        </div>
 
-                        <a class="contact-card" href="mailto:rafaelapazs666@gmail.com">
+                    </a>
 
-                            <i class="fa-regular fa-envelope"></i>
+                    <a
+                        class="contact-card"
+                        href="https://www.linkedin.com/in/rafaela-silva-da-paz-7492a4324/"
+                        target="_blank"
+                        rel="noopener noreferrer">
 
-                            <div>
+                        <i class="fa-brands fa-linkedin-in"></i>
 
-                                <strong>E-mail</strong>
+                        <div>
+                            <strong>LinkedIn</strong>
 
-                                <small>
-                                    rafaelapazs666@gmail.com
-                                </small>
+                            <small>
+                                /in/rafaela-silva-da-paz
+                            </small>
+                        </div>
 
-                            </div>
+                    </a>
 
-                        </a>
+                    <!-- CURRÍCULO -->
+                    <a
+                        class="download-btn"
+                        id="downloadCv"
+                        href="Curriculo-Rafaela.pdf"
+                        download="Curriculo-Rafaela.pdf">
 
+                        <i class="fa-solid fa-file-arrow-down"></i>
 
-                        <a class="contact-card" href="https://www.linkedin.com/in/rafaela-silva-da-paz-7492a4324/"
-                            target="_blank">
+                        <span>
+                            Baixar meu currículo
+                        </span>
 
-                            <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
 
-                            <div>
+                </div>
 
-                                <strong>LinkedIn</strong>
+            </div>
 
-                                <small>
-                                    /in/rafaela-silva-da-paz
-                                </small>
+        </section>
 
-                            </div>
+        <!-- HABILIDADES -->
+        <section class="section" id="habilidades">
 
-                        </a>
+            <div class="skills-grid">
 
-                        <!-- Botão para baixar currículo -->
+                <!-- FRONT-END -->
+                <article class="skill-card">
 
-                        <a class="download-btn" id="downloadCv" href="Curriculo-Rafaela.pdf"
-                            download="Curriculo-Rafaela.pdf">
+                    <div class="skill-title">
 
-                            <i class="fa-solid fa-file-arrow-down"></i>
+                        <i class="fa-solid fa-code"></i>
 
-                            <span>
-                                Baixar meu currículo
+                        <h3>Front-end</h3>
+
+                    </div>
+
+                    <ul>
+                        <li>HTML5 (Avançado)</li>
+                        <li>CSS3 (Avançado)</li>
+                        <li>JavaScript (Bom domínio)</li>
+                        <li>React (Intermediário)</li>
+                        <li>Tailwind CSS (Intermediário)</li>
+                        <li>Node.js (Básico)</li>
+                        <li>Interfaces Responsivas</li>
+                        <li>Formulários e Validações</li>
+                        <li>Consumo de APIs</li>
+                    </ul>
+
+                </article>
+
+                <!-- BACK-END -->
+                <article class="skill-card">
+
+                    <div class="skill-title">
+
+                        <i class="fa-solid fa-server"></i>
+
+                        <h3>Back-end</h3>
+
+                    </div>
+
+                    <ul>
+                        <li>Java (Bom domínio)</li>
+                        <li>Spring Boot (Intermediário)</li>
+                        <li>REST APIs</li>
+                        <li>CRUD</li>
+                        <li>Autenticação e Login</li>
+                        <li>Cadastro de usuários</li>
+                        <li>Permissões de usuários</li>
+                        <li>Arquitetura em Camadas</li>
+                        <li>Integração Front-end e Back-end</li>
+                    </ul>
+
+                </article>
+
+                <!-- BANCO DE DADOS -->
+                <article class="skill-card">
+
+                    <div class="skill-title">
+
+                        <i class="fa-solid fa-database"></i>
+
+                        <h3>Banco de Dados</h3>
+
+                    </div>
+
+                    <ul>
+                        <li>MySQL (Bom domínio)</li>
+                        <li>PostgreSQL (Intermediário)</li>
+                        <li>Oracle (Fundamental)</li>
+                        <li>SQL (Bom domínio)</li>
+                        <li>Modelagem de Dados</li>
+                        <li>DER – Modelo Entidade-Relacionamento</li>
+                        <li>Normalização</li>
+                        <li>JOIN, GROUP BY, Subconsultas</li>
+                    </ul>
+
+                </article>
+
+                <!-- ANÁLISE DE SISTEMAS -->
+                <article class="skill-card">
+
+                    <div class="skill-title">
+
+                        <i class="fa-solid fa-clipboard-list"></i>
+
+                        <h3>Análise de Sistemas</h3>
+
+                    </div>
+
+                    <ul>
+                        <li>Levantamento de requisitos</li>
+                        <li>Requisitos funcionais e não funcionais</li>
+                        <li>Regras de negócio</li>
+                        <li>Casos de uso</li>
+                        <li>Diagramas UML</li>
+                        <li>Documentação de sistemas</li>
+                        <li>Análise de problemas</li>
+                        <li>Prototipação e Wireframes</li>
+                    </ul>
+
+                </article>
+
+                <!-- FERRAMENTAS -->
+                <article class="skill-card">
+
+                    <div class="skill-title">
+
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+
+                        <h3>Ferramentas</h3>
+
+                    </div>
+
+                    <ul>
+                        <li>Git e GitHub</li>
+                        <li>Docker (Básico)</li>
+                        <li>Postman</li>
+                        <li>VS Code</li>
+                        <li>Figma</li>
+                        <li>BRModelo</li>
+                        <li>Trello</li>
+                    </ul>
+
+                </article>
+
+                <!-- METODOLOGIAS -->
+                <article class="skill-card">
+
+                    <div class="skill-title">
+
+                        <i class="fa-solid fa-users"></i>
+
+                        <h3>Metodologias e Conceitos</h3>
+
+                    </div>
+
+                    <ul>
+                        <li>Scrum</li>
+                        <li>Kanban</li>
+                        <li>Clean Code</li>
+                        <li>Orientação a Objetos</li>
+                        <li>Arquitetura em Camadas</li>
+                        <li>Trabalho colaborativo com Git/GitHub</li>
+                    </ul>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="section" id="projetos">
+
+            <div class="section-heading">
+
+                <h2>
+                    <i class="fa-solid fa-briefcase"></i>
+                    Meus Projetos
+                </h2>
+
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- PROJETO 1 -->
+                <article class="project-card">
+
+                    <div class="project-content">
+
+                        <h3>Casa Camarim</h3>
+
+                        <h1 class="project-subtitle">
+                            Sistema de agendamentos para salão de beleza
+                        </h1>
+
+                        <video controls>
+                            <source
+                                src="img/casa-camarim-video.mp4"
+                                type="video/mp4">
+
+                            Seu navegador não suporta vídeos.
+                        </video>
+
+                        <p>
+                            Sistema desenvolvido para organizar
+                            agendamentos de clientes em um salão
+                            de beleza, facilitando o gerenciamento
+                            de serviços e horários.
+                        </p>
+
+                        <strong>
+                            Principais funcionalidades
+                        </strong>
+
+                        <ul class="features">
+                            <li>Cadastro e login de usuários</li>
+                            <li>Agendar e cancelar serviços</li>
+                            <li>Visualizar serviços disponíveis</li>
+                            <li>Painel administrativo</li>
+                            <li>Gerenciamento de agendamentos</li>
+                        </ul>
+
+                        <div
+                            class="technologies"
+                            aria-label="Tecnologias utilizadas">
+
+                            <span title="HTML5">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                                    alt="HTML5">
                             </span>
 
-                        </a>
+                            <span title="CSS3">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                                    alt="CSS3">
+                            </span>
+
+                            <span title="JavaScript">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                                    alt="JavaScript">
+                            </span>
+
+                            <span title="Java">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                                    alt="Java">
+                            </span>
+
+                            <span title="MySQL">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                                    alt="MySQL">
+                            </span>
+
+                            <span title="Figma">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                                    alt="Figma">
+                            </span>
+
+                        </div>
+
+                        <div class="project-buttons">
+
+                            <a
+                                href="https://github.com/Blightpb/inkey"
+                                class="btn"
+                                target="_blank"
+                                rel="noopener noreferrer">
+
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
+
+                            </a>
+
+                            <a
+                                href="https://blightpb.github.io/inkey/"
+                                class="btn"
+                                target="_blank"
+                                rel="noopener noreferrer">
+
+                                Ver projeto
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                            </a>
+
+                        </div>
 
                     </div>
 
-                </div>
+                </article>
 
-            </section>
+                <!-- PROJETO 2 -->
+                <article class="project-card">
 
+                    <div class="project-content">
 
-            <!-- 2. Página de habilidades -->
+                        <h3>Apoio à Leitura</h3>
 
-            <section class="section" id="habilidades">
+                        <h1 class="project-subtitle">
+                            Plataforma de interação entre alunos por meio
+                            de resenhas de livros
+                        </h1>
 
-                <div class="skills-grid">
+                        <video controls>
+                            <source
+                                src="img/casa-camarim-video.mp4"
+                                type="video/mp4">
 
+                            Seu navegador não suporta vídeos.
+                        </video>
 
-                    <!-- Front-end -->
+                        <p>
+                            Essa plataforma foi pensada para incentivar
+                            a leitura e permite que alunos compartilhem
+                            suas resenhas e opiniões sobre livros.
+                        </p>
 
-                    <article class="skill-card">
+                        <strong>
+                            Principais funcionalidades
+                        </strong>
 
-                        <div class="skill-title">
-
-                            <i class="fa-solid fa-code"></i>
-
-                            <h3>Front-end</h3>
-
-                        </div>
-
-                        <ul>
-
-                            <li>HTML5 (Avançado)</li>
-                            <li>CSS3 (Avançado)</li>
-                            <li>JavaScript (Bom domínio)</li>
-                            <li>React (Intermediário)</li>
-                            <li>Tailwind CSS (Intermediário)</li>
-                            <li>Node.js (Básico)</li>
-                            <li>Interfaces Responsivas</li>
-                            <li>Formulários e Validações</li>
-                            <li>Consumo de APIs</li>
-
+                        <ul class="features">
+                            <li>Cadastro e login de usuários</li>
+                            <li>Publicação de resenhas</li>
+                            <li>Interação com livros</li>
+                            <li>Painel administrativo</li>
+                            <li>Adicionar livros</li>
+                            <li>Editar e remover comentários</li>
                         </ul>
 
-                    </article>
+                        <div
+                            class="technologies"
+                            aria-label="Tecnologias utilizadas">
 
+                            <span title="HTML5">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                                    alt="HTML5">
+                            </span>
 
-                    <!-- Back-end -->
+                            <span title="CSS3">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                                    alt="CSS3">
+                            </span>
 
-                    <article class="skill-card">
+                            <span title="JavaScript">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                                    alt="JavaScript">
+                            </span>
 
-                        <div class="skill-title">
+                            <span title="Java">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+                                    alt="Java">
+                            </span>
 
-                            <i class="fa-solid fa-server"></i>
+                            <span title="MySQL">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
+                                    alt="MySQL">
+                            </span>
 
-                            <h3>Back-end</h3>
-
-                        </div>
-
-                        <ul>
-
-                            <li>Java (Bom domínio)</li>
-                            <li>Spring Boot (Intermediário)</li>
-                            <li>REST APIs</li>
-                            <li>CRUD</li>
-                            <li>Autenticação e Login</li>
-                            <li>Cadastro de usuários</li>
-                            <li>Permissões de usuários</li>
-                            <li>Arquitetura em Camadas</li>
-                            <li>Integração Front-end e Back-end</li>
-
-                        </ul>
-
-                    </article>
-
-
-                    <!-- Banco de dados -->
-
-                    <article class="skill-card">
-
-                        <div class="skill-title">
-
-                            <i class="fa-solid fa-database"></i>
-
-                            <h3>Banco de Dados</h3>
+                            <span title="Figma">
+                                <img
+                                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                                    alt="Figma">
+                            </span>
 
                         </div>
 
-                        <ul>
+                        <div class="project-buttons">
 
-                            <li>MySQL (Bom domínio)</li>
-                            <li>PostgreSQL (Intermediário)</li>
-                            <li>Oracle (Fundamental)</li>
-                            <li>SQL (Bom domínio)</li>
-                            <li>Modelagem de Dados</li>
-                            <li>DER – Modelo Entidade-Relacionamento</li>
-                            <li>Normalização</li>
-                            <li>JOIN, GROUP BY, Subconsultas</li>
+                            <a
+                                href="https://github.com/Blightpb/inkey"
+                                class="btn"
+                                target="_blank"
+                                rel="noopener noreferrer">
 
-                        </ul>
+                                <i class="fa-brands fa-github"></i>
+                                GitHub
 
-                    </article>
+                            </a>
 
+                            <a
+                                href="https://blightpb.github.io/inkey/"
+                                class="btn"
+                                target="_blank"
+                                rel="noopener noreferrer">
 
-                    <!-- Análise -->
+                                Ver projeto
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
 
-                    <article class="skill-card">
-
-                        <div class="skill-title">
-
-                            <i class="fa-solid fa-clipboard-list"></i>
-
-                            <h3>Análise de Sistemas</h3>
+                            </a>
 
                         </div>
 
-                        <ul>
+                    </div>
 
-                            <li>Levantamento de requisitos</li>
-                            <li>Requisitos funcionais e não funcionais</li>
-                            <li>Regras de negócio</li>
-                            <li>Casos de uso</li>
-                            <li>Diagramas UML</li>
-                            <li>Documentação de sistemas</li>
-                            <li>Análise de problemas</li>
-                            <li>Prototipação e Wireframes</li>
+                </article>
 
-                        </ul>
+            </div>
 
-                    </article>
+        </section>
 
+    </main>
 
-                    <!-- Ferramentas -->
+</div>
 
-                    <article class="skill-card">
-
-                        <div class="skill-title">
-
-                            <i class="fa-solid fa-screwdriver-wrench"></i>
-
-                            <h3>Ferramentas</h3>
-
-                        </div>
-
-                        <ul>
-
-                            <li>Git e GitHub</li>
-                            <li>Docker (Básico)</li>
-                            <li>Postman</li>
-                            <li>VS Code</li>
-                            <li>Figma</li>
-                            <li>BRModelo</li>
-                            <li>Trello</li>
-
-                        </ul>
-
-                    </article>
-
-
-                    <!-- Metodologias -->
-
-                    <article class="skill-card">
-
-                        <div class="skill-title">
-
-                            <i class="fa-solid fa-users"></i>
-
-                            <h3>Metodologias e Conceitos</h3>
-
-                        </div>
-
-                        <ul>
-
-                            <li>Scrum</li>
-                            <li>Kanban</li>
-                            <li>Clean Code</li>
-                            <li>Orientação a Objetos</li>
-                            <li>Arquitetura em Camadas</li>
-                            <li>Trabalho colaborativo com Git/GitHub</li>
-
-                        </ul>
-
-                    </article>
-
-                </div>
-
-            </section>
-
-
-            <!-- 3. Página de projetos -->
-
-            <section class="section" id="projetos">
-
-                <div class="section-heading">
-
-                    <h2>
-                        <i class="fa-solid fa-briefcase"></i>
-                        Meus Projetos
-                    </h2>
-
-                </div>
-
-
-                <div class="projects-grid">
-
-
-                    <!-- Projeto 1 -->
-
-                    <article class="project-card">
-
-                        <div class="project-content">
-
-                            <h3>Casa Camarim</h3>
-
-                            <h1 class="project-subtitle">
-                                Sistema de agendamentos para salão de beleza
-                            </h1>
-
-                            <video controls>
-                                <source src="img/casa-camarim-video.mp4" type="video/mp4">
-                            </video>
-
-                            <p>
-                                Sistema desenvolvido para organizar
-                                agendamentos de clientes em um salão
-                                de beleza, facilitando o gerenciamento
-                                de serviços e horários.
-                            </p>
-
-
-                            <strong>
-                                Principais funcionalidades
-                            </strong>
-
-                            <ul class="features">
-
-                                <li>Cadastro e login de usuários</li>
-                                <li>Agendar e cancelar serviços</li>
-                                <li>Visualizar serviços disponíveis</li>
-                                <li>Painel administrativo</li>
-                                <li>Gerenciamento de agendamentos</li>
-
-                            </ul>
-
-
-                            <div class="technologies" aria-label="Tecnologias utilizadas">
-
-                                <span title="HTML5">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                                        alt="HTML5">
-                                </span>
-
-                                <span title="CSS3">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                                        alt="CSS3">
-                                </span>
-
-                                <span title="JavaScript">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                                        alt="JavaScript">
-                                </span>
-
-                                <span title="Java">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
-                                        alt="Java">
-                                </span>
-
-                                <span title="MySQL">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
-                                        alt="MySQL">
-                                </span>
-
-                                <span title="Figma">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
-                                        alt="Figma">
-                                </span>
-
-                            </div>
-
-
-                            <div class="project-buttons">
-
-                                <a href="https://github.com/Blightpb/inkey" class="btn" target="_blank">
-
-                                    <i class="fa-brands fa-github"></i>
-                                    GitHub
-
-                                </a>
-
-                                <a href="https://blightpb.github.io/inkey/" class="btn" target="_blank">
-
-                                    Ver projeto
-
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- Projeto 2 -->
-
-                    <article class="project-card">
-
-                        <div class="project-content">
-
-                            <h3>Apoio à Leitura</h3>
-
-                            <h1 class="project-subtitle">
-                                Plataforma de interação entre alunos por meio de resenhas de livros
-                            </h1>
-
-                            <video controls>
-                                <source src="img/casa-camarim-video.mp4" type="video/mp4">
-                            </video>
-
-                            <p>
-                                Essa plataforma foi pensada para incentivar
-                                a leitura e permite que alunos compartilhem
-                                suas resenhas e opiniões sobre livros.
-                            </p>
-
-
-                            <strong>
-                                Principais funcionalidades
-                            </strong>
-
-                            <ul class="features">
-
-                                <li>Cadastro e login de usuários</li>
-                                <li>Publicação de resenhas</li>
-                                <li>Interação com livros</li>
-                                <li>Painel administrativo</li>
-                                <li>Adicionar livros</li>
-                                <li>Editar e remover comentários</li>
-
-                            </ul>
-
-
-                            <div class="technologies" aria-label="Tecnologias utilizadas">
-
-                                <span title="HTML5">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
-                                        alt="HTML5">
-                                </span>
-
-                                <span title="CSS3">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
-                                        alt="CSS3">
-                                </span>
-
-                                <span title="JavaScript">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-                                        alt="JavaScript">
-                                </span>
-
-                                <span title="Java">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
-                                        alt="Java">
-                                </span>
-
-                                <span title="MySQL">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg"
-                                        alt="MySQL">
-                                </span>
-
-                                <span title="Figma">
-                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
-                                        alt="Figma">
-                                </span>
-
-                            </div>
-
-
-                            <div class="project-buttons">
-
-                                <a href="https://github.com/Blightpb/inkey" class="btn" target="_blank">
-
-                                    <i class="fa-brands fa-github"></i>
-                                    GitHub
-
-                                </a>
-
-                                <a href="https://blightpb.github.io/inkey/" class="btn" target="_blank">
-
-                                    Ver projeto
-
-                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-
-                                </a>
-
-                            </div>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </section>
-
-        </main>
-
-    </div>
-
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 
 </body>
 
