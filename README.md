@@ -1,6 +1,6 @@
 # Portfólio — Rafaela Silva da Paz
 
-## Bem-vindo(a) ao meu portfólio! 👋
+### Bem-vindo(a) ao meu portfólio! 👋
 ### Acesse meu portfólio: **https://blightpb.github.io**
 
 ##  Sobre o projeto
