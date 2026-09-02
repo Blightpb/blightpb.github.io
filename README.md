@@ -6,8 +6,7 @@ Este projeto foi desenvolvido para apresentar minha trajetória acadêmica, minh
 ## Projeto online acesse meu portfólio - **https://blightpb.github.io**
 
 ## 📌 Sobre o projeto
-
-    O portfólio foi desenvolvido com uma interface simples e responsiva, permitindo a visualização das principais informações sobre minha formação e meus conhecimentos na área de tecnologia.
+O portfólio foi desenvolvido com uma interface simples e responsiva, permitindo a visualização das principais informações sobre minha formação e meus conhecimentos na área de tecnologia.
 
 ## 🛠️ Tecnologias utilizadas
 
