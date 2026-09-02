@@ -1,3 +1,5 @@
+/* configurações gerais da página */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,8 @@ body {
     padding: 30px 80px;
     transition: background .35s ease;
 }
+
+/* barra de navegação / introdução */
 
 .portfolio {
     background-color: #F8F1E7;
@@ -210,6 +214,8 @@ body {
     gap: 35px;
 }
 
+/* 1. introdução */
+
 .about-card {
     padding: 25px;
     border-radius: 15px;
@@ -356,6 +362,8 @@ body {
     background-color: #56726A;
 }
 
+/* 2. habilidades */
+
 .skills-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -422,6 +430,8 @@ body {
 .section-heading h2 i {
     margin-right: 5px;
 }
+
+/* 3. projetos */
 
 .projects-grid {
     display: grid;
@@ -567,6 +577,8 @@ body {
     background: #89AA9F;
 }
 
+/* página de carregamento */
+
 .page-loader {
     position: fixed;
     inset: 0;
@@ -604,6 +616,40 @@ body {
     to {
         transform: rotate(360deg);
     }
+}
+
+/* rodapé */
+
+.dev {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    margin-top: 15px;
+    color: #56726A;
+    font-size: .75rem;
+    text-align: center;
+}
+
+.dev p {
+    margin: 0;
+    font-weight: 400;
+}
+
+.dev strong {
+    color: #719187;
+    font-weight: 700;
+}
+
+/* Modo escuro */
+
+body.dark-mode .dev {
+    color: #9EBBB0;
+}
+
+body.dark-mode .dev strong {
+    color: #B8D0C7;
 }
 
 body.dark-mode {
